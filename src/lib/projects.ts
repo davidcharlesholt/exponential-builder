@@ -9,6 +9,7 @@ export interface Project {
   status: ProjectStatus;
   /** Optional icon path. Place files in /public/icons/ and reference as "/icons/<filename>" */
   icon?: string;
+  url?: string;
 }
 
 export const projects: Project[] = [
