@@ -82,7 +82,7 @@ export default function Home() {
 
             <p>Now it&apos;s something simpler and harder.</p>
 
-            <p>How you think about building.</p>
+            <p><strong>How you think about building.</strong></p>
 
             <hr />
 

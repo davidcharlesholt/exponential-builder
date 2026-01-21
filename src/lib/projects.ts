@@ -20,6 +20,7 @@ export const projects: Project[] = [
     description: "A lightweight invoicing tool that helps freelancers get paid faster with automatic follow-ups.",
     status: "active",
     icon: "/icons/nudge.png",
+    url: "https://nudgesend.com",
   },
   {
     id: "wordcasters-quest",
@@ -38,6 +39,7 @@ export const projects: Project[] = [
     description: "Tracks Etsy and Printify sales, costs, and profits in one clear dashboard for makers online.",
     status: "active",
     icon: "/icons/makermetrics.png",
+    url: "https://makermetrics.io",
   },
   {
     id: "sayso-feedback",
@@ -47,6 +49,7 @@ export const projects: Project[] = [
     description: "Collects real customer feedback via QR codes, turning opinions into actionable business insights.",
     status: "active",
     icon: "/icons/sayso-feedback.png",
+    url: "https://saysofeedback.com",
   },
   {
     id: "programmatic-seo-course",
@@ -56,6 +59,7 @@ export const projects: Project[] = [
     description: "Teaches automated creation of hundreds-plus optimized pages using tools, no coding required.",
     status: "acquired",
     icon: "/icons/programmatic-seo-course.png",
+    url: "https://programmaticseocourse.com",
   },
   {
     id: "giant-leap",
