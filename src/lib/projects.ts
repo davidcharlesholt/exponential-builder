@@ -36,7 +36,7 @@ export const projects: Project[] = [
     initials: "MM",
     color: "bg-sky-500",
     description: "Tracks Etsy and Printify sales, costs, and profits in one clear dashboard for makers online.",
-    status: "discontinued",
+    status: "active",
     icon: "/icons/makermetrics.png",
   },
   {
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     initials: "SF",
     color: "bg-violet-500",
     description: "Collects real customer feedback via QR codes, turning opinions into actionable business insights.",
-    status: "discontinued",
+    status: "active",
     icon: "/icons/sayso-feedback.png",
   },
   {
