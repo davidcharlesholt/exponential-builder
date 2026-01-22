@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Container } from "@/components/container";
 import { ProjectCard } from "@/components/project-card";
 import { Prose } from "@/components/prose";
@@ -19,7 +20,7 @@ export default function Home() {
   return (
     <Container className="py-10 lg:py-14">
       <Tabs defaultValue="projects" className="w-full">
-        <div className="flex justify-center lg:justify-end">
+        <nav className="flex justify-center lg:justify-end" aria-label="Main navigation">
           <TabsList className="h-auto gap-6 p-2 font-heading">
           <TabsTrigger value="projects" className="px-4 py-2">
             Projects
@@ -35,7 +36,7 @@ export default function Home() {
             Articles
           </TabsTrigger>
           </TabsList>
-        </div>
+        </nav>
 
         <TabsContent value="projects" className="mt-10">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
@@ -173,6 +174,17 @@ export default function Home() {
               <p>
                 <em>Designing work that compounds when effort no longer does</em>
               </p>
+
+              <div className="relative my-8 w-full overflow-hidden rounded-lg">
+                <Image
+                  src="/images/articles/exponential-mindset/exponential.png"
+                  alt="Exponential growth visualization"
+                  width={1200}
+                  height={630}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
 
               <p>
                 In 1862, a surgeon named John Eric Erichsen examined a patient who had been in a minor railway accident. No broken bones. No visible wounds. The train had merely stopped suddenly. A jolt. Nothing dramatic.

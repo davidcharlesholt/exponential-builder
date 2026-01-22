@@ -19,6 +19,46 @@ export const metadata: Metadata = {
   title: "David Holt — Build Once. Compound Daily.",
   description:
     "Exploring what happens when indie hackers stop grinding for output and start designing leverage.",
+  metadataBase: new URL("https://exponentialbuilder.com"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://exponentialbuilder.com",
+    siteName: "ExponentialBuilder",
+    title: "David Holt — Build Once. Compound Daily.",
+    description:
+      "Exploring what happens when indie hackers stop grinding for output and start designing leverage.",
+    images: [
+      {
+        url: "/og-image.png", // You'll need to add this image
+        width: 1200,
+        height: 630,
+        alt: "ExponentialBuilder - Build Once. Compound Daily.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "David Holt — Build Once. Compound Daily.",
+    description:
+      "Exploring what happens when indie hackers stop grinding for output and start designing leverage.",
+    images: ["/og-image.png"], // You'll need to add this image
+    creator: "@davidholt", // Update with your actual Twitter handle
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({

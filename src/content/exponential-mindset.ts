@@ -3,6 +3,7 @@
 export const exponentialMindsetText = `
 The Exponential Mindset
 
+
 In 1862, a surgeon named John Eric Erichsen examined a patient who had been in a minor railway accident. No broken bones. No visible wounds. The train had merely stopped suddenly. A jolt. Nothing dramatic.
 
 And yet the patient couldn't walk properly. Couldn't think straight. Complained of fatigue that wouldn't lift and anxiety that seemed to come from nowhere.

@@ -11,7 +11,7 @@ interface ArticleContentProps {
 
 export function ArticleContent({ title, readTime, onBack, children }: ArticleContentProps) {
   return (
-    <div className="mx-auto max-w-[65ch]">
+    <article className="mx-auto max-w-[65ch]">
       {/* Back button and read time */}
       <div className="mb-8 flex items-center justify-between">
         <Button
@@ -33,6 +33,6 @@ export function ArticleContent({ title, readTime, onBack, children }: ArticleCon
         <h1>{title}</h1>
         {children}
       </Prose>
-    </div>
+    </article>
   );
 }
