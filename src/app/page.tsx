@@ -177,7 +177,7 @@ export default function Home() {
 
               <div className="relative my-8 w-full overflow-hidden rounded-lg">
                 <Image
-                  src="/images/articles/exponential-mindset/exponential.png"
+                  src="/images/articles/exponential-mindset/exponential.webp"
                   alt="Exponential growth visualization"
                   width={1200}
                   height={630}
